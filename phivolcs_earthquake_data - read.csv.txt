@@ -1,0 +1,7 @@
+ phivolcs_earthquake_data <- read.csv("~/archive/phivolcs_earthquake_data.csv")
+   View(phivolcs_earthquake_data)
+ hist(phivolcs_earthquake_data$Magnitude,
+      main = "Histogram of Earthquake Magnitudes",
+      xlab = "Magnitude",
+      col = "skyblue",
+      border = "black")
